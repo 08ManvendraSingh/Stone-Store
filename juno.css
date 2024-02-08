@@ -1,0 +1,392 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+.one{
+	width: 100%;
+	height: 100vh;
+	background: url(image/juno-hero.jpg) no-repeat fixed;
+	background-size: cover;
+	box-shadow: inset 0px 0px 0px 380px #00102e82 ;
+}
+.nav-bar{
+	width: 100%;
+	color: white;
+	padding: 10px 0px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+.logo{
+	width: 14%;
+}
+.logo img{
+	width: 100%;
+}
+.menu{
+	padding: 25px 0px;
+}
+.menu ul{
+	display: flex;
+	flex-wrap: wrap;
+}
+.menu ul li {
+	list-style: none;
+	margin-left: 40px;
+}
+.hero{
+	text-align: center;
+	color: white;
+	padding-top: 15rem;
+}
+.hero h1{
+	font-size: 3.3rem;
+	margin-bottom: 3rem;
+}
+.hero h3{
+	font-size: 2rem;
+	letter-spacing: 1px;
+}
+.two{
+	width: 100%;
+	background-color: #fff;
+	padding: 20px 200px;
+}
+.two h1{
+	text-align: center;
+	font-size: 3rem;
+	margin-top: 2.5rem;
+	color: #1e73be;
+}
+.two p{
+	font-size: 1rem;
+	font-weight: 600;
+	padding-top: 3rem;
+	line-height: 1.5rem;
+	color: #000000c7;
+}
+.three{
+	width: 100%;
+	background-color: #F4F5F7;
+	padding: 0px 200px;
+	padding-top: 12rem;
+	padding-bottom: 5rem;
+}
+.three-top{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.three-top .contentBx{
+	width: 53%;
+	padding: 70px 0;
+}
+.three-top .contentBx h1,.three-bottom .contentBx h1{
+	color: #1e73be;
+	margin-bottom: 2rem;
+	font-size: 3rem;
+}
+.three-top .contentBx p,.three-bottom .contentBx p{
+	color: #233452;
+	letter-spacing: 1px;
+	line-height: 1.6rem;
+	margin-bottom: 3rem;
+}
+.three-top .contentBx button,.three-bottom .contentBx button{
+	border: none;
+	outline: none;
+	font-weight: bold;
+	padding: 20px 40px;
+	background-color: #6ec1e4;
+	font-size: 1rem;
+	color:  #000000c7;
+}
+.three-top .imgBx{
+	width: 42%;
+	height: 27.5rem;
+}
+.three-top .imgBx img{
+	width: 100%;
+	height: 100%;
+}
+.three-bottom{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.three-bottom .imgBx{
+	width: 42%;
+	height: 14rem;
+	margin-top: 5rem;
+}
+.three-bottom .imgBx img{
+	width: 100%;
+	height: 100%;
+}
+.three-bottom .contentBx{
+	width: 53%;
+	padding: 50px 0;
+}
+.four{
+	width: 100%;
+	background-color: #fff;
+	padding: 5rem 200px;
+}
+.four h1{
+	text-align: center;
+	font-size: 3rem;
+	color: #1e73be;
+	margin-bottom: 5rem;
+}
+.portimg1,.portimg2{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.portimg2{
+	margin-top: 2rem;
+	margin-bottom: 3rem;
+}
+.imgBx1,.imgBx2,.imgBx3,.imgBx4{
+	width:45%;
+	height: 18rem;
+}
+.imgBx1 img,.imgBx2 img,.imgBx3 img,.imgBx4 img{
+	width: 100%;
+	height: 100%;
+}
+.four button{
+	border: none;
+	outline: none;
+	font-weight: bold;
+	padding: 20px 40px;
+	background-color: #6ec1e4;
+	font-size: 1rem;
+	color:  #000000c7;
+	position: relative;
+	left: 40%;
+}
+.five{
+	width: 100%;
+	background-color: #F4F5F7;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding: 5rem 200px;
+}
+.card1,.card2,.card3{
+	width: 30%;
+}
+.cardimg1,.cardimg2,.cardimg3{
+	width: 50px;
+	height: 3rem;
+	background-color: #6ec1e4;
+	border-radius: 50%;
+	margin-bottom: 2rem;
+}
+.cardimg1 i,.cardimg2 i,.cardimg3 i{
+	margin: 1rem;
+}
+.card1 h6,.card2 h6,.card3 h6{
+	color: #1e73be;
+	font-size: .8rem;
+	margin-bottom: 2rem;
+	font-weight: bold;
+}
+.card1 p,.card2 p,.card3 p{
+	color: #233452;
+	line-height: 1.5rem;
+	letter-spacing: 1px;
+}
+.six{
+	width: 100%;
+	background-color: #00102e;
+	padding: 0rem 200px;
+	padding-top: 5rem;
+	color: white;
+}
+.six h1{
+	text-align: center;
+	font-size: 3rem;
+	margin-bottom: 3rem;
+}
+.six button{
+	border: none;
+	outline: none;
+	font-weight: bold;
+	padding: 20px 40px;
+	background-color: #6ec1e4;
+	font-size: 1rem;
+	color:  #000000c7;
+	position: relative;
+	left: 40%;
+	margin-bottom: 5rem;
+}
+.six-down{
+	width: 100%;
+	padding: 5rem 0;
+	border-top: 1px solid #ffffff1a;
+	display: flex;
+	justify-content: space-between;
+}
+.six-left{
+	width: 40%;
+}
+.sixImg{
+	width: 40%;
+	height: 8rem;
+	margin-bottom: 2rem;
+}
+.sixImg img{
+	width: 100%;
+	height: 100%;
+}
+.six-left p{
+	line-height: 1.5rem;
+}
+.six-right{
+	width: 50%;
+	padding: 1rem 2rem;
+}
+.six-right h2{
+	font-size: 1rem;
+	margin-bottom: 2rem;
+}
+.six-right h3{
+	font-size: 1rem;
+	line-height: 1.3rem;
+	letter-spacing: 1px;
+}
+.addressBx,.phoneBx,.mailBx{
+	width: 60%;
+	display: flex;
+	padding-top: 1rem;
+}
+.addressBx i,.phoneBx i,.mailBx i{
+	margin-right: 1rem;
+	color: #dd3333;
+}
+.last{
+	text-align: center;
+}
+
+@media only screen and (max-width: 992px){
+	.two{
+		padding: 20px 150px;
+	}
+	.three{
+		padding-left:150px;
+		padding-right:150px;
+	}
+ 	.imgBx{
+ 		height: 23.5rem;
+	} 
+	.four{
+		padding: 5rem 150px;
+	}
+	.five{
+		padding: 5rem 150px;
+	}
+	.six{
+		padding-left:150px;
+		padding-right:150px;
+	}
+	.three-top .contentBx h1, .three-bottom .contentBx h1{
+		font-size: 2.8rem;
+	}
+	.three-top .imgBx {
+		height: 22.5rem;
+	}
+}
+@media only screen and (max-width:768px){
+	.two h1{
+		font-size: 2.5rem;
+	}
+	.two{
+		padding: 20px 100px;
+	}
+	.three{
+		padding-left: 100px;
+		padding-right: 100px;
+		padding-top: 5rem;
+	}
+	.three-top .contentBx h1, .three-bottom .contentBx h1{
+		font-size: 2rem;
+	}
+	.three-top .imgBx{
+		height: 16.5rem;
+	}
+	.imgBx{
+		margin-top: 7rem;
+	}
+	.four{
+		padding: 5rem 100px;
+	}
+	.four h1{
+		font-size: 2.5rem;
+	}
+	.imgBx1, .imgBx2, .imgBx3, .imgBx4{
+		height: 16rem;
+	}
+	.card1 h6, .card2 h6, .card3 h6{
+		font-size: .7rem;
+	}
+	.card1 p, .card2 p, .card3 p {
+		letter-spacing: 0;
+	}
+	.six h1{
+		font-size: 2.5rem;
+	}
+	.sixImg{
+		width: 70%;
+	}
+	.six-right{
+		width: 41%;
+    	padding: 1rem 0rem;
+	}
+	.hero{
+		padding-top: 10rem;
+	}
+	.hero h1{
+		font-size: 3rem;
+	}
+	.six{
+		padding-left: 100px;
+		padding-right: 100px;
+	}
+	.five{
+		padding: 5rem 100px;
+	}
+
+}
+@media only screen and (max-width:576px){
+	.hero{
+		padding-top: 10rem;
+	} 
+	.hero h1{
+		font-size: 2.5rem;
+	}
+	.two{
+		padding: 20px 50px;
+	}
+	.three{
+		padding-left: 50px;
+		padding-right: 50px;
+		padding-top: 2rem;
+	}
+	.four{
+		padding: 5rem 50px;
+	}
+	.five{
+		padding: 5rem 50px;
+	}
+	.card1 h6, .card2 h6, .card3 h6 {
+		font-size: .8rem;
+	}
+	.six{
+		padding-left: 50px;
+		padding-right: 50px;
+	}
+}
